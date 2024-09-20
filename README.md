@@ -1,0 +1,5 @@
+## Build
+
+```
+nix build
+```

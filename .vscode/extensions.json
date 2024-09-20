@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "EditorConfig.EditorConfig",
+        "James-Yu.latex-workshop",
+        "mkhl.direnv",
+    ],
+    "unwantedRecommendations": [
+        "tomoki1207.pdf"
+    ]
+}

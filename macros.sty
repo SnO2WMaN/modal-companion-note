@@ -1,0 +1,26 @@
+\theoremstyle{definition}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{補題}
+\newtheorem{definition}[theorem]{定義}
+\newtheorem{notation}[theorem]{表記}
+\newtheorem{remark}[theorem]{注意}
+\newtheorem{example}[theorem]{例}
+\newtheorem{corollary}[theorem]{系}
+
+\newtheorem*{theorem*}{定理}
+\newtheorem*{lemma*}{補題}
+
+\renewcommand{\proofname}{証明}
+\makeatletter
+\renewenvironment{proof}[1][\proofname]{\par
+	\normalfont
+	\topsep6\p@\@plus6\p@\relax
+	\trivlist
+	\item\relax
+	% {\itshape
+	{\bfseries\gtfamily
+		#1\@addpunct{.}}\hspace\labelsep\ignorespaces
+}{%
+	\endtrivlist
+	\@endpefalse
+}

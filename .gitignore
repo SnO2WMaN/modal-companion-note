@@ -1,0 +1,26 @@
+# Nix
+.direnv
+result
+
+# TeX
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.bbl
+*.*-SAVE-ERROR
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.idx
+*.ilg
+*.ind
+*.toc
+*.bbl
+
+# misc
+temp
+
+*.pdf
